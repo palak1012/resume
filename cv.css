@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.full{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left{
+    background-color: aquamarine;
+    padding:20px;
+}
+.right{
+    background-color: lightskyblue;
+    padding: 20px;
+}
+.image, .contact, .skills, .language, .hobbies, .education, .certificate, .extra {
+    margin-bottom: 30px;
+}
